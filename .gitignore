@@ -1,2 +1,7 @@
 pre-trained-models/
 venv/
+pythonenv3.8
+Tensorflow
+cocoapi
+images
+hat_detection_train_data.zip

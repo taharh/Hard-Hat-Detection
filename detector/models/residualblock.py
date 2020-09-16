@@ -3,6 +3,7 @@ import tensorflow as tf
 
 class BasicBlock(tf.keras.layers.Layer):
 
+
     def __init__(self, filter_num, stride=1):
         super(BasicBlock, self).__init__()
         self.conv1 = tf.keras.layers.Conv2D(filters=filter_num,
